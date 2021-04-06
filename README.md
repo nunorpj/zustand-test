@@ -8,7 +8,7 @@ in this test i conclude that if we use zustand in a simply way like this:
 const counterA = useCounters((state) => state.counterA);
 ```
 
-the component will only re-render id the counterA change.
+the component will only re-render id the `counterA` change.
 
 if we wanted to construct a single object with multiple state-picks inside, similar to redux's mapStateToProps
 
